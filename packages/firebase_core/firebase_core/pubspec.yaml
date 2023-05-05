@@ -14,7 +14,11 @@ environment:
 
 dependencies:
   firebase_core_platform_interface: ^4.7.0
-  firebase_core_web: ^2.4.0
+  firebase_core_web:
+    git:
+      url: https://github.com/aitok-ai/flutterfire.git
+      path: packages/firebase_core/firebase_core_web
+      ref: aitok.us
   flutter:
     sdk: flutter
   meta: ^1.8.0

@@ -11,7 +11,11 @@ environment:
 dependencies:
   _flutterfire_internals: ^1.2.0
   collection: ^1.15.0
-  firebase_core: ^2.11.0
+  firebase_core:
+    git:
+      url: https://github.com/aitok-ai/flutterfire.git
+      path: packages/firebase_core/firebase_core
+      ref: aitok.us
   flutter:
     sdk: flutter
   meta: ^1.8.0
